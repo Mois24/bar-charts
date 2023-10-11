@@ -1,0 +1,23 @@
+.button {
+    margin-left: auto;
+}
+
+.box select {
+    background-color: #fff;
+    color: #0563af;
+    padding: 12px;
+    width: 300px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    outline: none;
+    appearance: none;
+    background: url(/public/image/arrow.svg) no-repeat right;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    cursor: pointer;
+}
+
+.box select option {
+    padding: 30px;
+}
